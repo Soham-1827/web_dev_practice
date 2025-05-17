@@ -1,0 +1,25 @@
+/* Write your code here: */
+h1, h2{
+    color: blueviolet;
+}
+/*Selector, Selector*/
+
+.box > .done {
+    color: firebrick;
+}
+/* parent > direct children */
+
+.box .list{
+    color: blue;
+}
+/*Ancestor Descendant*/
+
+
+li.done{
+    color: seagreen;
+}
+/*Chaining*/
+
+ul p.done{
+    font-size: 0.5rem;
+}
